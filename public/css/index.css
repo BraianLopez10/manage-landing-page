@@ -74,6 +74,10 @@ body {
   display: none;
 }
 
+.button-get-started {
+  margin: 30px 0;
+}
+
 .header::before {
   content: "";
   background: url(../images/bg-tablet-pattern.svg);
@@ -186,7 +190,6 @@ body {
   color: var(--color-neutral-dark-grayish-blue);
 }
 .button {
-  margin-top: 35px;
   background-color: var(--color-primary-bright-red);
   color: #ffff;
   border: 1px solid transparent;
